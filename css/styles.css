@@ -70,6 +70,10 @@ body {
 
 .sec-1-index {
   background-color: var(--bg-dark-grey);
+  background-image: url(../images/index/people-at-the-office.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 1600px 600px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -234,7 +238,7 @@ body {
 .nav-links-parent {
   display: flex;
   width: 295px;
-  justify-content: space-between;
+  justify-content: center;
   /* background-color: orange; */
   /* border: dotted violet 2px; */
 }
@@ -289,7 +293,6 @@ body {
 
 .fig-settings {
   background-color: var(--bg-white);
-  height: 368px;
   width: 270px;
   border-radius: 0 0 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -308,6 +311,7 @@ body {
 .foot-parent {
   padding-top: 60px;
   padding-bottom: 60px;
+  display: flex;
 }
 
 .addr-list > li:not(:last-child) {
@@ -363,4 +367,90 @@ header {
   flex-grow: 1;
   /* background-color: violet; */
   padding-left: 93px;
+}
+
+.header-address {
+  flex-grow: 0.5;
+}
+
+.icon-nav {
+  fill: red;
+  width: 16px;
+  height: 12px;
+}
+.icon-nav:hover {
+  fill: var(--text-blue);
+}
+
+.icon-with-text span:not(:last-child) {
+  padding-left: 30px;
+}
+
+.icon-with-text span:not(:last-child) {
+  padding-right: 10px;
+}
+
+.icon-our-assets {
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+}
+
+.icons-social-media {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.icons-social-media li svg {
+  width: 44px;
+  height: 44px;
+  margin-top: 16px;
+  margin-bottom: 5px;
+}
+
+/* .icons-social-media li svg:not(:last-child) {
+  padding-right: 10px;
+} */
+
+.icons-clients {
+  display: flex;
+  justify-content: center;
+}
+
+.icons-clients li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.icon-client {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  margin-top: 50px;
+}
+
+.footer-social-media {
+  color: var(--text-white);
+}
+
+.footer-icons-social-media {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-icons-social-media li svg {
+  width: 44px;
+  height: 44px;
+  margin-top: 16px;
+  margin-bottom: 5px;
+}
+
+.footer-icons-social-media li:not(:last-child) {
+  padding-right: 10px;
+}
+
+.footer-join-us {
+  margin-left: 70px;
 }
