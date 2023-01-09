@@ -12,6 +12,7 @@
   --border-header: #ececec;
   --border-semi-grey: #afb1b8;
   --link-transparent-grey: rgba(255, 255, 255, 60%);
+  --icons-semi-grey: #afb1b8;
 }
 
 body {
@@ -380,12 +381,20 @@ header {
 }
 
 .icon-nav {
-  fill: red;
-  width: 16px;
-  height: 12px;
+  fill: var(--text-grey);
 }
+
 .icon-nav:hover,
 .icon-nav:focus {
+  fill: var(--text-blue);
+}
+
+.icon-team {
+  fill: var(--text-grey);
+}
+
+.icon-team:hover,
+.icon-team:focus {
   fill: var(--text-blue);
 }
 
@@ -398,8 +407,6 @@ header {
 }
 
 .icon-our-assets {
-  width: 270px;
-  height: 120px;
   margin-bottom: 30px;
 }
 
@@ -431,11 +438,25 @@ header {
 }
 
 .icon-client {
-  width: 170px;
-  height: 92px;
   border: 1px solid var(--border-semi-grey);
   border-radius: 4px;
   margin-top: 50px;
+  fill: var(--icons-semi-grey);
+}
+
+.icon-client:focus,
+.icon-client:hover {
+  fill: var(--text-blue);
+  border: 1px solid var(--text-blue);
+}
+
+.icon-footer {
+  fill: var(--text-white);
+}
+
+.icon-footer:hover,
+.icon-footer:focus {
+  fill: var(--text-white);
 }
 
 .footer-social-media {
@@ -467,4 +488,18 @@ header {
   background: #ffffff;
   border: 1px solid var(--border-grey);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 44px;
+  background-color: violet;
+  border-radius: 100px;
+}
+
+.circle:hover {
+  background-color: var(--bg-blue);
 }
