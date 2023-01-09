@@ -245,7 +245,8 @@ body {
 .nav-links-parent {
   display: flex;
   width: 295px;
-  justify-content: center;
+  justify-content: flex-end;
+  gap: 30px;
   /* background-color: orange; */
   /* border: dotted violet 2px; */
 }
@@ -402,12 +403,10 @@ header {
   fill: var(--icons-white);
 }
 
-.icon-with-text span:not(:last-child) {
-  padding-left: 30px;
-}
-
-.icon-with-text span:not(:last-child) {
-  padding-right: 10px;
+.icon-with-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .icon-our-assets {
