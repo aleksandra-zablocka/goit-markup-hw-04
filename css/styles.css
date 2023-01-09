@@ -68,7 +68,7 @@ body {
   color: var(--text-dark-grey);
 }
 
-.header-address li a {
+.nav-links-parent li a {
   text-decoration: none;
   font-weight: 500;
   color: var(--text-grey);
@@ -210,8 +210,8 @@ body {
 
 .navigation li a:focus,
 .navigation li a:hover,
-.header-address li a:focus,
-.header-address li a:hover,
+.nav-links-parent li a:focus,
+.nav-links-parent li a:hover,
 .address-address:focus,
 .address-address:hover,
 .address-mail:focus,
@@ -247,9 +247,20 @@ body {
   width: 295px;
   justify-content: flex-end;
   gap: 30px;
-  /* background-color: orange; */
+  flex-grow: 0.5;
+    /* background-color: orange; */
   /* border: dotted violet 2px; */
 }
+
+.icon-with-text:hover, 
+.icon-with-text:focus {
+  color: var(--text-blue);
+} 
+
+.icon-with-text:hover .icon-nav, 
+.icon-with-text:focus .icon-nav{
+  fill: var(--text-blue);
+} 
 
 .sec-1-parent {
   display: flex;
@@ -379,10 +390,6 @@ header {
   flex-grow: 1;
   /* background-color: violet; */
   padding-left: 93px;
-}
-
-.header-address {
-  flex-grow: 0.5;
 }
 
 .icon-nav {
