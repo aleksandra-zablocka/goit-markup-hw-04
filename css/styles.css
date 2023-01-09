@@ -401,6 +401,7 @@ header {
 .icon-team:hover,
 .icon-team:focus {
   fill: var(--icons-white);
+  cursor: pointer;
 }
 
 .icon-with-text {
@@ -445,6 +446,7 @@ header {
 .icon-client:hover {
   fill: var(--icons-blue);
   border: 1px solid var(--icons-blue);
+  cursor: pointer;
 }
 
 .icon-footer {
@@ -454,6 +456,7 @@ header {
 .icon-footer:hover,
 .icon-footer:focus {
   fill: var(--icons-white);
+  cursor: pointer;
 }
 
 .footer-social-media {
@@ -483,6 +486,7 @@ header {
   background: var(--bg-white);
   border: 1px solid var(--border-grey);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
 }
 
 .circle {
