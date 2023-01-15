@@ -248,19 +248,19 @@ body {
   justify-content: flex-end;
   gap: 30px;
   flex-grow: 0.5;
-    /* background-color: orange; */
+  /* background-color: orange; */
   /* border: dotted violet 2px; */
 }
 
-.icon-with-text:hover, 
+.icon-with-text:hover,
 .icon-with-text:focus {
   color: var(--text-blue);
-} 
+}
 
-.icon-with-text:hover .icon-nav, 
-.icon-with-text:focus .icon-nav{
+.icon-with-text:hover .icon-nav,
+.icon-with-text:focus .icon-nav {
   fill: var(--text-blue);
-} 
+}
 
 .sec-1-parent {
   display: flex;
@@ -491,7 +491,7 @@ header {
 .portfolio-cards-item:hover,
 .portfolio-cards-item:focus {
   background: var(--bg-white);
-  border: 1px solid var(--border-grey);
+  border: 0 1px 1px 1px solid var(--border-grey);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
 }
